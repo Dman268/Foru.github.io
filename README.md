@@ -131,7 +131,7 @@
     <p class="message" id="msg3"></p>
     <p class="message" id="msg4"></p>
     <img id="icebear" src="https://media.tenor.com/qWvu6yAZczsAAAAi/icebear-ice-bear.gif" alt="Ice Bear">
-    <button class="btn" onclick="showNextMessage()">Buka Surat ❤️</button>
+    <button class="btn" onclick="showNextMessage()">Open Letter ❤️</button>
     <button class="hug-btn" onclick="sendHug()">Virtual hugggggg 🤗</button>
     <button onclick="toggleMusic()" id="musicBtn" style="
   position: fixed;
@@ -146,7 +146,7 @@
   font-size: 1rem;
   cursor: pointer;
   z-index: 10;
-">Putar Lagu 🎵</button>
+">Play Song 🎵</button>
 
   </div>
 
@@ -274,10 +274,10 @@
   const btn = document.getElementById("musicBtn");
   if (audio.paused) {
     audio.play();
-    btn.textContent = "Jeda Lagu ⏸️";
+    btn.textContent = "Pause Song ⏸️";
   } else {
     audio.pause();
-    btn.textContent = "Putar Lagu 🎵";
+    btn.textContent = "Play Song 🎵";
   }
 }
 
